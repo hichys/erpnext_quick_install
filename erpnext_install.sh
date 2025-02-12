@@ -288,7 +288,7 @@ collation-server = utf8mb4_unicode_ci
 default-character-set = utf8mb4
 EOF'
 
-    sudo service mysql restart
+    sudo service mariadb restart
 
     # Create the hidden marker file to indicate this section of the script has run.
     touch "$MARKER_FILE"
